@@ -1,2 +1,2 @@
-# Third-Assgniment-----Pivot-table
-ჩემს ცხოვრებას ეს რეპოზიტორები შეიწირავს, სერია 3
+# Third and Forth Assignments-----Pivot-table, export csv
+ჩემს ცხოვრებას ეს რეპოზიტორები შეიწირავს, სერია 3 და 4, გაგრძელება იქნება!
