@@ -47,3 +47,10 @@ pd.pivot_table(df,index=["Fav_Pub"], values=["WTS", "Freq"],aggfunc=[np.mean,len
 # %%
 pd.pivot_table(df,index=["Occasions"], values=["Freq"],aggfunc=[np.mean,len,sum])
 # %%
+df1 = pd.pivot_table(df,index=['Gender', 'Fav_Pub'], values=['Age'], aggfunc='count', fill_value= '_')
+df1.sort_values('Age', ascending=False)
+
+# %%
+#save the data to csv file
+df1.to_csv("armenian_pubs - armenian_pubs.csv")
+# %%
